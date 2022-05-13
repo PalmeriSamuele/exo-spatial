@@ -4,6 +4,8 @@
         background-size: cover
         align-items: center
         padding: 20px 0
+
+        z-index: 3
         nav
             flex-direction: column
             .navlink
@@ -31,12 +33,13 @@
                 a 
                  width: 100%
         .quatre_cards_section 
-            padding: 0
+            padding: 1rem 0 
             .centered_box 
                 .qc_cards 
                     display: flex
                     flex-direction: column
                     .qc_card
+                       
                         flex-direction: column
                         justify-content: center
                         align-items: center
@@ -74,9 +77,8 @@
 
     main
         .desc
-            width: 100vw
-            padding: 0
-            flex-direction: column
+            width: 90%
+            padding: 1rem 0
             align-items: center
         .two_cards_section
             .tc_cards

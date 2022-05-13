@@ -155,6 +155,10 @@ main .quatre_cards_section .centered_box .qc_cards .cards_start {
   display: flex;
   flex-direction: row-reverse;
 }
+main .quatre_cards_section .centered_box p {
+  font-size: 13px;
+  color: gray;
+}
 main .post_footer_section {
   background-image: url("../images/banner.jpg");
   background-size: cover;

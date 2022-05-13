@@ -4,6 +4,7 @@
     background-size: cover;
     align-items: center;
     padding: 20px 0;
+    z-index: 3;
   }
   header nav {
     flex-direction: column;
@@ -35,7 +36,7 @@
     width: 100%;
   }
   main .quatre_cards_section {
-    padding: 0;
+    padding: 1rem 0;
   }
   main .quatre_cards_section .centered_box .qc_cards {
     display: flex;
@@ -83,9 +84,8 @@
   }
 
   main .desc {
-    width: 100vw;
-    padding: 0;
-    flex-direction: column;
+    width: 90%;
+    padding: 1rem 0;
     align-items: center;
   }
   main .two_cards_section .tc_cards a {
