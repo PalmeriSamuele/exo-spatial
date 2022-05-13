@@ -1,0 +1,99 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  header {
+    height: fit-content;
+    background-size: cover;
+    align-items: center;
+    padding: 20px 0;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav .navlink {
+    margin: 0;
+  }
+  header .info_banner {
+    display: none;
+  }
+
+  main .desc {
+    width: 100vw;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .desc .desc_title {
+    width: 90%;
+  }
+  main .desc .desc_text {
+    width: 90%;
+    text-align: justify;
+  }
+  main .two_cards_section .tc_cards {
+    flex-direction: column;
+  }
+  main .two_cards_section .tc_cards a {
+    width: 100%;
+  }
+  main .quatre_cards_section {
+    padding: 0;
+  }
+  main .quatre_cards_section .centered_box .qc_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  main .quatre_cards_section .centered_box .qc_cards .qc_card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  main .quatre_cards_section .centered_box .qc_cards .qc_card .txt-end {
+    text-align: start;
+  }
+  main .post_footer_section {
+    height: fit-content;
+  }
+
+  footer {
+    gap: 4rem;
+  }
+  footer .copyright {
+    font-size: 13px;
+    text-align: center;
+  }
+  footer .copyright .bordered {
+    border: 0;
+  }
+  footer .copyright p {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: fit-content;
+    background-size: cover;
+    align-items: center;
+    padding: 20px 0;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav .navlink {
+    margin: 0;
+  }
+
+  main .desc {
+    width: 100vw;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .two_cards_section .tc_cards a {
+    width: 100%;
+  }
+  main .quatre_cards_section .centered_box .qc_cards {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
